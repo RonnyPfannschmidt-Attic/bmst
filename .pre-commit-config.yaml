@@ -16,7 +16,7 @@ repos:
     -   id: debug-statements
         language_version: python3
 -   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
+    rev: 3.9.0
     hooks:
     -   id: flake8
         language_version: python3
@@ -36,6 +36,6 @@ repos:
     -   id: mypy
         additional_dependencies: [werkzeug==1.0.1, httplib2==0.18.1]
 -   repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.7.1
+    rev: v1.8.0
     hooks:
     -   id: rst-backticks
